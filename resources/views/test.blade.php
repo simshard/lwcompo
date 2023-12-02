@@ -11,11 +11,12 @@
 </head>
 <body>
     <div class="container mx-auto mt-4">
-  <div class="my-8">
-    <h2 class="text-lg font-semibold mt-4">Livewire Data Tables</h2>
-
-    <livewire:data-tables />
-</div>
+    <div class="text-red-500 text-xl ">HOME  </div>
+    <p class="mt-3 text-blue-600 text-base">
+        Tailwind  and Livewire installed correctly
+    </p>
+  <livewire:counter/>
+   
   <div class="text-3xl text-purple-900 text-center">
     @php  $str = "\u{03A8}";//  
     echo $str;
@@ -24,3 +25,5 @@
 </div>
 </body>
 </html>
+   
+ 
