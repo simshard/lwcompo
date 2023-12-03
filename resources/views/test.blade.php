@@ -16,6 +16,7 @@
         Tailwind  and Livewire installed correctly
     </p>
   <livewire:counter/>
+  <livewire:m-y-form/>>
    
   <div class="text-3xl text-purple-900 text-center">
     @php  $str = "\u{03A8}";//  
