@@ -7,19 +7,15 @@
    
     @vite(['resources/css/app.css','resources/js/app.js'])
      
-    <title>Livewire Examples </title>
+    <title>HMRC UK Exchange Rate table </title>
 </head>
 <body>
     <div class="container mx-auto mt-4">
-    <div class="text-red-500 text-xl ">HOME  </div>
-    <p class="mt-3 text-blue-600 text-base">
-        Tailwind  and Livewire installed correctly
-    </p>
-  <livewire:counter/>
-  <livewire:m-y-form/>
-  <livewire:xr-table/>
- 
-   
+  <div class="my-8">
+    <h2 class="text-lg font-semibold mt-4">HMRC UK Exchange Rate table </h2>
+
+    <livewire:xr-table />
+</div>
   <div class="text-3xl text-purple-900 text-center">
     @php  $str = "\u{03A8}";//  
     echo $str;
@@ -28,5 +24,3 @@
 </div>
 </body>
 </html>
-   
- 

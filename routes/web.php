@@ -1,8 +1,9 @@
 <?php
 
-use Illuminate\Support\Facades\Route;
-use Illuminate\Http\Request;
 use App\Models\User;
+use App\Livewire\MYForm;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Route;
 
 /*
 |--------------------------------------------------------------------------
@@ -17,7 +18,12 @@ use App\Models\User;
 
 
 Route::get('/', function () {
-    return view('hello');
+    return view('welcome');
+
+});
+
+Route::get('/xrdata', function () {
+    return view('xrdata');
 
 });
 
@@ -25,6 +31,9 @@ Route::get('/test', function () {
     return view('test');
 
 });
+
+Route::get('/getxr',[ MYForm::class,'show'])->name('getxr');
+Route::post('/getxr',[ MYForm::class,'store']);
 
 Route::view('dashboard', 'dashboard')
     ->middleware(['auth', 'verified'])
