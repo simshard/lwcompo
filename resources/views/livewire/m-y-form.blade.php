@@ -40,11 +40,10 @@
             <option value="">----</option>
             <option value="22">2022</option>
             <option value="23">2023</option>
-            <option value="24">2024</option>
           </select>
           @error('year')
           <span class="text-red-500"> 
-            Year must be  numeric in range 22>24</span>
+            Year must be  numeric in range 22>23</span>
           @enderror
       </div>
      <div class="mt-6">
