@@ -14,4 +14,4 @@ Mini Data Manager
  - Set up a simple logged in area to access and view the data that has been loaded in
   - Filterable by country
   - Filter validation
- - Allow the user to perform a conversion, from source value to the exchange rate 
+ -  TO DO Allow the user to perform a conversion, from source value to the exchange rate 
